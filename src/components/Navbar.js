@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -20,6 +20,12 @@ function Navbar() {
     }
   }
 
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  var Logo = require("../images/wd_logo.png")
+
   window.addEventListener('resize', showButton);
 
   return (
@@ -27,7 +33,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            WD
+            <img src={Logo} alt="logo" height={80}/>
           </Link>
         </div>
         <div className='menu-icon' onClick={menuClick}>
