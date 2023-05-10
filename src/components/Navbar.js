@@ -20,6 +20,16 @@ function Navbar() {
     }
   }
 
+  const scrollToSection = (id_name) => {
+    const navbarHeight = parseInt(getComputedStyle(document.querySelector('.navbar')).height);
+    const section = document.getElementById(id_name);
+    const sectionPosition = section.getBoundingClientRect().top + window.pageYOffset- navbarHeight;
+    window.scrollTo({
+      top: sectionPosition,
+      behavior: 'smooth'
+    });
+  }
+
   useEffect(() => {
     showButton();
   }, []);
@@ -33,7 +43,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            <img src={Logo} alt="logo" height={80}/>
+            <img src={Logo} alt="logo"/>
           </Link>
         </div>
         <div className='menu-icon' onClick={menuClick}>
@@ -45,27 +55,27 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <NavLink 
-              to='/' 
+              to='/#home' 
               className='nav-links'
               activeClassName='nav-links active'
-              onClick={closeMobileMenu}
+              onClick={() => {closeMobileMenu(); scrollToSection('header')}}
             >
               HOME
             </NavLink>
           </li>
           <li className='nav-item'>
             <NavLink 
-              to='/about' 
+              to='/#about' 
               className='nav-links' 
               activeClassName='nav-links active'
-              onClick={closeMobileMenu}
+              onClick={() => {closeMobileMenu(); scrollToSection('about')}}
             >
               ABOUT
             </NavLink>
           </li>
           <li className='nav-item'>
             <NavLink 
-              to='/skills' 
+              to='/#skills' 
               className='nav-links' 
               activeClassName='nav-links active'
               onClick={closeMobileMenu}
@@ -75,7 +85,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <NavLink 
-                to='/projects' 
+                to='/#projects' 
                 className='nav-links' 
                 activeClassName='nav-links active'
                 onClick={closeMobileMenu}
@@ -85,8 +95,8 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <NavLink 
-                to='/contact' 
-                className='nav-links' 
+                to='/#contact' 
+                className='nav-links'
                 activeClassName='nav-links active'
                 onClick={closeMobileMenu}
               >

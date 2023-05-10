@@ -4,10 +4,10 @@ import '../App.css';
 
 function HeaderSection() {
   return (
-    <div className='header-container'>
+    <div id='header' className='header-container'>
       <div className='row-container'>
         <div className='entry-container'>
-          <h1>Hello! I'm <br/>William Dinauer</h1>
+          <h1 className='introduction'>Hello! I'm <br/>William Dinauer</h1>
           <h2>I'm a Software Engineer studying Computer Science and Engineering at Dartmouth College</h2>
         </div>
         <div className='img-container'>

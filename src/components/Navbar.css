@@ -19,6 +19,7 @@
 }
 
 .navbar-logo {
+  width: 120px;
   color: #fff;
   justify-self: start;
   justify-content: center;
