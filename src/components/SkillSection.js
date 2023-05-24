@@ -21,18 +21,6 @@ function SkillSection() {
         </div>
       </div>
       <div className='skill-content'>
-        <h3 className='section-title'>Tools</h3>
-        <div className='skill-box'>
-          <span>Git</span>
-          <span>Unix</span>
-          <span>Docker</span>
-          <span>Jupyter Notebook</span>
-          <span>Unity</span>
-          <span>VS Code</span>
-          <span>Figma</span>
-        </div>
-      </div>
-      <div className='skill-content'>
         <h3 className='section-title'>Other Skills</h3>
         <div className='skill-box'>
           <span>MongoDB</span>
@@ -55,6 +43,18 @@ function SkillSection() {
           <span>Computer Architecture</span>
           <span>Compilers</span>
           <span>Mobile Development</span>
+        </div>
+      </div>
+      <div className='skill-content'>
+        <h3 className='section-title'>Tools</h3>
+        <div className='skill-box'>
+          <span>Git</span>
+          <span>Unix</span>
+          <span>Docker</span>
+          <span>Jupyter Notebook</span>
+          <span>Unity</span>
+          <span>VS Code</span>
+          <span>Figma</span>
         </div>
       </div>
     </div>
