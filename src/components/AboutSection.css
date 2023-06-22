@@ -1,6 +1,5 @@
 .about-container {
   display: block;
-  background-color: #242424;
   width: 100%;
   font-size: 20px;
   color: #fff;
@@ -11,11 +10,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  column-gap: 2rem;
+  column-gap: 1rem;
 }
 
 .about-text-container {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .about-img-container {

@@ -5,6 +5,10 @@
   font-family: 'Mulish', sans-serif;
 }
 
+body {
+  background-color: #242424;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -12,7 +16,7 @@ img {
 
 h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
   color: #eee;
 }
 
