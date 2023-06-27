@@ -4,9 +4,9 @@ import '../App.css';
 
 function SkillSection() {
   return (
-    <div className='skill-section-container'>
+    <div id='skills' className='skill-section-container'>
       <h1>Skills</h1>
-      <div id='skills' className='skill-container'>
+      <div className='skill-container'>
         <div className='skill-content'>
           <h3 className='section-title'>Languages</h3>
           <div className='skill-box'>

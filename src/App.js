@@ -13,6 +13,7 @@ function App() {
         <Route path="/" exact element={<Home />}/>
         <Route path="/about" exact element={<Home />}/>
         <Route path="/skills" exact elemtn={<Home />}/>
+        <Route path="/projects" exact elemtn={<Home />}/>
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
     </Router>

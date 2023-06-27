@@ -4,11 +4,16 @@ import './ProjectSection.css';
 
 function ProjectSection() {
   return (
-    <div className='projects'>
+    <div id='projects' className='projects'>
       <h1>Projects</h1>
       <div className="projects__container">
         <div className="projects__wrapper">
           <ul className="projects__items">
+            <Project 
+              src={require('../images/Cedar.png')}
+              text="Cedar Mobile App"
+              label='React-Native'
+            />
             <Project 
               src={require('../images/Cedar.png')}
               text="Cedar Mobile App"

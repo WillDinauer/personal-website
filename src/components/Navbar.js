@@ -78,7 +78,7 @@ function Navbar() {
               to='/#skills' 
               className='nav-links' 
               activeClassName='nav-links active'
-              onClick={closeMobileMenu}
+              onClick={() => {closeMobileMenu(); scrollToSection('skills')}}
             >
               SKILLS
             </NavLink>
@@ -88,7 +88,7 @@ function Navbar() {
                 to='/#projects' 
                 className='nav-links' 
                 activeClassName='nav-links active'
-                onClick={closeMobileMenu}
+                onClick={() => {closeMobileMenu(); scrollToSection('projects')}}
               >
                 PROJECTS
             </NavLink>
