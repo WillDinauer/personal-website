@@ -10,7 +10,7 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
+  max-width: 1400px;
   width: 90%;
   margin: 0 auto;
 }
@@ -18,11 +18,11 @@ h1 {
 .projects__wrapper {
   position: relative;
   margin: 50px 0 45px;
-  width: 80%;
+  width: 100%;
 }
 
 .projects__items {
-  margin-bottom: 24px;
+  margin-bottom: 2rem;
   width: 100%;
 }
 
@@ -92,6 +92,9 @@ h1 {
 }
 
 .projects__item__info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   padding: 20px 30px 30px;
   background-color: #fff;
 }
