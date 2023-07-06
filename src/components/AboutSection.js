@@ -1,14 +1,34 @@
 import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './AboutSection.css';
 import '../App.css';
 
 function AboutSection() {
+  const config = {
+    showThumbs: false, // Hide the small images below the carousel
+    infiniteLoop: true, // Make the carousel loop around
+    autoPlay: true, // Enable automatic scrolling
+    interval: 3000, // Set the interval between slides (in milliseconds)
+    stopOnHover: true, // Stop automatic scrolling on hover
+  };
+
   return (
     <div id='about' className='about-container'>
       <h1>About Me</h1>
       <div className='about-overview'>
         <div className='about-img-container'>
-          <p>img here</p>
+          <Carousel {...config}>
+            <div>
+              <img src={require('../images/NY_pose.jpg')} alt="1" />
+            </div>
+            <div>
+              <img src={require('../images/Nationals_22.jpg')} alt="2" />
+            </div>
+            <div>
+              <img src={require('../images/CedarTeam.jpg')} alt="3" />
+            </div>
+          </Carousel>
         </div>
         <div className='about-text-container'>
           <p>Hi! My name is Will and I'm a software developer. I graduated Magna Cum Laude from Dartmouth College with a degree in Computer Science and a minor in Engineering Sciences.
