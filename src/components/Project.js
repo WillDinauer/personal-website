@@ -15,7 +15,7 @@ function Project(props) {
             <h5 className="projects__item__text">{props.text}</h5>
             <div className="projects__item__buttons_container">
               <a href={props.link} className="projects__item__external__link fa-stack fa-lg">
-                  <FontAwesomeIcon color={'#3c2acb'} icon={faCircle} className="fa-stack-2x" />
+                  <FontAwesomeIcon color={'#1F65E1'} icon={faCircle} className="fa-stack-2x" />
                   <FontAwesomeIcon color={'#ffffff'} icon={props.icon} className="fa-stack-1x fa-inverse fa-stack-align-center" />
               </a>
               <Link to="/projectdetails" className="projects__item__link-text">

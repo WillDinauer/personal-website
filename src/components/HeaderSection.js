@@ -8,7 +8,7 @@ function HeaderSection() {
       <div className='row-container'>
         <div className='entry-container'>
           <h1 className='introduction'>Hello! I'm <br/>William Dinauer</h1>
-          <h2>I'm a Software Engineer studying Computer Science and Engineering at Dartmouth College</h2>
+          <h2>Software Engineer & Dartmouth College Graduate</h2>
         </div>
         <div className='img-container'>
           <img src={require('../images/HeadShot.JPG')} alt="head" className='headshot-img'/>

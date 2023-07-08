@@ -1,12 +1,13 @@
 .skill-section-container {
   text-align: center;
   color: white;
+  margin: 0 auto 3rem auto;
 }
 
 .skill-container {
   display: grid;
   flex-direction: row;
-  grid-template-columns: repeat(2, 500px);
+  grid-template-columns: repeat(2, 600px);
   column-gap: 1rem;
   row-gap: 1rem;
   text-align: center;
@@ -32,7 +33,7 @@
   row-gap: 1rem;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1252px) {
   .skill-container {
     display: flex;
     flex-direction: column;

@@ -9,7 +9,7 @@ function AboutSection() {
     showThumbs: false, // Hide the small images below the carousel
     infiniteLoop: true, // Make the carousel loop around
     autoPlay: true, // Enable automatic scrolling
-    interval: 3000, // Set the interval between slides (in milliseconds)
+    interval: 4000, // Set the interval between slides (in milliseconds)
     stopOnHover: true, // Stop automatic scrolling on hover
   };
 
@@ -31,7 +31,7 @@ function AboutSection() {
           </Carousel>
         </div>
         <div className='about-text-container'>
-          <p>Hi! My name is Will and I'm a software developer. I graduated Magna Cum Laude from Dartmouth College with a degree in Computer Science and a minor in Engineering Sciences.
+          <p>Hi! My name is Will and I'm a software engineer. I graduated Magna Cum Laude from Dartmouth College with a degree in Computer Science and a minor in Engineering Sciences.
             I'm passionate about building technology that makes our lives more efficient and interesting.
             <br/>
             <br/>

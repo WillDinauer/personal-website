@@ -5,22 +5,26 @@
   width: 95%;
   font-size: 22px;
   color: #fff;
-  margin: 3rem auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10rem auto;
 }
 
 .about-overview {
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 3rem;
-  justify-items: center; /* Add this line to center the grid items horizontally */
+  justify-items: center; 
 }
 
 .about-img-container {
   display: flex;
   justify-content: center;
-  align-items: center; /* Add this line to center the image vertically */
+  align-items: center; 
+  border-radius: 10px; 
+  overflow: hidden;
 }
 
 @media screen and (max-width: 960px) {
