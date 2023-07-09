@@ -7,7 +7,8 @@ const STYLES = ['btn--primary', 'btn--outline'];
 const SIZES = ['btn--medium', 'btn--large'];
 
 export const Button = ({
-  children, 
+  children,
+  link,
   type, 
   onClick, 
   buttonStyle, 
@@ -17,7 +18,7 @@ export const Button = ({
   const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
 
   return (
-    <Link to='/sign-up' className='btn-mobile'>
+    <a href={link} className='btn-mobile'>
       <button
       className={`btn ${checkButtonStyle} ${checkButtonSize}`}
       onClick={onClick}
@@ -25,6 +26,6 @@ export const Button = ({
       >
         {children}
       </button>
-    </Link>
+    </a>
   )
 }

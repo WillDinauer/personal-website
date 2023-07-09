@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css';
 import { Button } from './Button';
+import Resume from '../files/WilliamDinauer_Resume.pdf'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -104,16 +105,10 @@ function Navbar() {
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink 
-              to='/resume' 
-              className='nav-links-mobile' 
-              onClick={closeMobileMenu}
-            >
-              RESUME
-            </NavLink>
+            <a className='nav-links-mobile' href={Resume} onClick={closeMobileMenu}>RESUME</a>
           </li>
         </ul>
-        {button && <Button buttonStyle='btn--outline'>RESUME</Button>}
+        {button && <Button buttonStyle='btn--outline' link={Resume}>RESUME</Button>}
       </nav>
     </>
   )
