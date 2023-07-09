@@ -13,7 +13,7 @@ function ContactSection() {
       <div className='contact-list-container'>
         <ul className='contact-list'>
           <Connect icon={faEnvelope} label='Email' description='william.dinauer@gmail.com' link='mailto:william.dinauer@gmail.com' linkText="Email me ➜"/>
-          <Connect icon={faLinkedin} label='LinkedIn' description='Will Dinauer' link='https://www.linkedin.com/in/william-dinauer-86a609199/' linkText="Connect with me ➜"/>
+          <Connect icon={faLinkedin} label='LinkedIn' description='William Dinauer' link='https://www.linkedin.com/in/william-dinauer-86a609199/' linkText="Connect with me ➜"/>
           <Connect icon={faGithub} label='GitHub' description='WillDinauer' link='https://github.com/WillDinauer/' linkText="View my projects ➜"/>
         </ul>
       </div>

@@ -1,4 +1,6 @@
 .skill-section-container {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   color: white;
 }
