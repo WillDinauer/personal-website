@@ -1,9 +1,9 @@
-.projects {
-  padding: 4rem;
-}
-
 h1 {
   text-align: center;
+}
+
+.projects{
+  margin: 5rem auto 0 auto;
 }
 
 .projects__container {

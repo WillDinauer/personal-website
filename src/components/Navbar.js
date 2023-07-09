@@ -99,7 +99,7 @@ function Navbar() {
                 to='/#contact' 
                 className='nav-links'
                 activeClassName='nav-links active'
-                onClick={closeMobileMenu}
+                onClick={() => {closeMobileMenu(); scrollToSection('contact')}}
               >
                 CONTACT
             </NavLink>
