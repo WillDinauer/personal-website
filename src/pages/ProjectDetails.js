@@ -1,10 +1,9 @@
 import React from 'react';
+import SoftwareExperiences from '../components/SoftwareExperiences';
 
 function ProjectDetails() {
   return (
-    <div>
-      <h1>Project Details Page</h1>
-    </div>
+    <SoftwareExperiences />
   );
 }
 
