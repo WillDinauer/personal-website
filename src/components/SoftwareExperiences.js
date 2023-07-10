@@ -26,7 +26,7 @@ function SoftwareExperiences() {
                 </a>
               </div>
             </div>
-            <p className="project-text">Implemented and deployed a mobile app in a scrum environment over the course of 6 months in a team of 5. Highlights:</p>
+            <p className="project-text">Implemented and deployed a mobile app in a scrum environment over the course of 6 months in a team of 5.</p>
             <ul className='bullet-list'>
               <li className='bullet-item'>Led the design and development of a mobile app aimed at addressing sexual assault on college campuses, leveraging React Native, Expo, Node.js, and MongoDB.</li>
               <li className='bullet-item'>Implemented a RESTful API with web sockets using Express.js, facilitating real-time communication between the frontend and backend.</li>

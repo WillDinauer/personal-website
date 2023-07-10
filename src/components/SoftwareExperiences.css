@@ -24,9 +24,16 @@
   margin: 8px 0 0 0;
 }
 
+.project-img_left {
+  flex-direction: row;
+}
+
+.project-img_right {
+  flex-direction: row-reverse;
+}
+
 .project {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 2rem;
 }
