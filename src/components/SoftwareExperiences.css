@@ -39,9 +39,15 @@
   gap: 4rem;
 }
 
-.project-image,
+.project-image-container,
 .project-content {
   flex-basis: 50%;
+}
+
+.project-image-container {
+  max-height: 28rem;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .project-title {

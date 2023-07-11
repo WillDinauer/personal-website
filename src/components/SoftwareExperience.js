@@ -11,7 +11,7 @@ function SoftwareExperience(props) {
   return (
     <>
       <div className={`project ${direction}`}>
-        <div className="project-image">
+        <div className="project-image-container">
           <img src={props.img} alt="Project" className="project-image" />
         </div>
         <div className="project-content">
