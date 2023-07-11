@@ -38,7 +38,7 @@ function Navbar() {
     showButton();
   }, []);
 
-  var Logo = require("../images/wd_logo.png")
+  var Logo = require("../images/WD_alt.png")
 
   window.addEventListener('resize', showButton);
 
