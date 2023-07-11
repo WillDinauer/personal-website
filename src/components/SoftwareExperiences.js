@@ -5,7 +5,7 @@ import SoftwareExperience from './SoftwareExperience';
 function SoftwareExperiences() {
   return (
     <div className='se-container'>
-      <h1>Software Experiences</h1>
+      <h1>Software Projects</h1>
       <div className="project-container">
         {/******** CEDAR *******/}
         <SoftwareExperience 

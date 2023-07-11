@@ -24,11 +24,14 @@ function Navbar() {
   const scrollToSection = (id_name) => {
     const navbarHeight = parseInt(getComputedStyle(document.querySelector('.navbar')).height);
     const section = document.getElementById(id_name);
-    const sectionPosition = section.getBoundingClientRect().top + window.pageYOffset- navbarHeight;
-    window.scrollTo({
-      top: sectionPosition,
-      behavior: 'smooth'
-    });
+
+    if (section) {
+      const sectionPosition = section.getBoundingClientRect().top + window.scrollY - navbarHeight;
+      window.scrollTo({
+        top: sectionPosition,
+        behavior: 'smooth'
+      });
+    }
   }
 
   useEffect(() => {
@@ -59,7 +62,7 @@ function Navbar() {
               to='/#home' 
               className='nav-links'
               activeClassName='nav-links active'
-              onClick={() => {closeMobileMenu(); scrollToSection('header')}}
+              onClick={() => {closeMobileMenu(); scrollToSection('home')}}
             >
               HOME
             </NavLink>
@@ -76,7 +79,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <NavLink 
-              to='/#skills' 
+              to='/#skills'
               className='nav-links' 
               activeClassName='nav-links active'
               onClick={() => {closeMobileMenu(); scrollToSection('skills')}}
@@ -96,7 +99,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <NavLink 
-                to='/#contact' 
+                to='/#contact'
                 className='nav-links'
                 activeClassName='nav-links active'
                 onClick={() => {closeMobileMenu(); scrollToSection('contact')}}

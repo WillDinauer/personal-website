@@ -4,7 +4,7 @@ import '../App.css';
 
 function HeaderSection() {
   return (
-    <div id='header' className='header-container'>
+    <div id='home' className='header-container'>
       <div className='row-container'>
         <div className='entry-container'>
           <h1 className='introduction'>Hello! I'm <br/>William Dinauer</h1>

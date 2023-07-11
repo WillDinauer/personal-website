@@ -10,8 +10,8 @@
   justify-content: center;
   width: 95%;
   max-width: 1600px;
-  margin: 2rem auto;
-  gap: 4rem;
+  margin: 5rem auto 10rem auto;
+  gap: 6rem;
 }
 
 .project-header {
