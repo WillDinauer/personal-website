@@ -6,11 +6,12 @@
 
 .project-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 95%;
   max-width: 1600px;
-  margin: 0 auto;
-  gap: 2rem;
+  margin: 2rem auto;
+  gap: 4rem;
 }
 
 .project-header {
@@ -24,18 +25,18 @@
   margin: 8px 0 0 0;
 }
 
-.project-img_left {
+.project-regular {
   flex-direction: row;
 }
 
-.project-img_right {
+.project-invert {
   flex-direction: row-reverse;
 }
 
 .project {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .project-image,

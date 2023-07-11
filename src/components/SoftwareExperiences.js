@@ -2,7 +2,7 @@ import React from 'react';
 import './SoftwareExperiences.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle, faLink } from '@fortawesome/free-solid-svg-icons';
-//import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import SoftwareExperience from './SoftwareExperience';
 
 function SoftwareExperiences() {
   return (
@@ -35,8 +35,34 @@ function SoftwareExperiences() {
             </ul>
           </div>
         </div>
+        <SoftwareExperience 
+          img={require('../images/Cedar.png')}
+          title='Cedar Mobile App'
+          stack='React Native, Express.js, MongoDB'
+          link='https://medium.com/dartmouth-cs98/how-can-a-mobile-app-help-combat-sexual-violence-on-college-campuses-meet-cedar-eb581d55d013'
+          projectDescription={
+            <>
+            <p className="project-text">Implemented and deployed a mobile app in a scrum environment over the course of 6 months in a team of 5.</p>
+              <ul className='bullet-list'>
+                <li className='bullet-item'>Led the design and development of a mobile app aimed at addressing sexual assault on college campuses, leveraging React Native, Expo, Node.js, and MongoDB.</li>
+                <li className='bullet-item'>Implemented a RESTful API with web sockets using Express.js, facilitating real-time communication between the frontend and backend.</li>
+                <li className='bullet-item'>Deployed the server using Render, ensuring a reliable and scalable infrastructure for user access.</li>
+                <li className='bullet-item'>Structured the MongoDB database to support efficient and secure storage, enabling optimized NoSQL queries for retrieving and storing data.</li>
+              </ul>
+            </>
+          }
+          invert
+        />
       </div>
-    </div>
+      {/*<SoftwareExperience 
+        img=''
+        title=''
+        stack=''
+        gitLink=''
+        link=''
+        projectDescription=''
+      />*/}
+  </div>
   );
 }
 
