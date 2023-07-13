@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.273a6801.css",
+    "main.js": "/static/js/main.8565d6df.js",
+    "static/js/787.2863db78.chunk.js": "/static/js/787.2863db78.chunk.js",
+    "static/media/HeadShot.JPG": "/static/media/HeadShot.4a301f50967b8f83c722.JPG",
+    "static/media/NY_pose.jpg": "/static/media/NY_pose.4d9286a069e63c7d224f.jpg",
+    "static/media/CedarTeam.jpg": "/static/media/CedarTeam.b00ece41d605359aee20.jpg",
+    "static/media/Cedar.png": "/static/media/Cedar.0b57235b55ce4747944c.png",
+    "static/media/WilliamDinauer_Resume.pdf": "/static/media/WilliamDinauer_Resume.c5cdeb32d07dccb8feca.pdf",
+    "static/media/SpaceWizardPhoto.JPG": "/static/media/SpaceWizardPhoto.8cf437435905a96e42c1.JPG",
+    "static/media/Nationals_22.jpg": "/static/media/Nationals_22.63c3f0f5a62430400bda.jpg",
+    "static/media/WD_alt.png": "/static/media/WD_alt.1a8695af1485f107f142.png",
+    "static/media/x86_code_generator.PNG": "/static/media/x86_code_generator.15f58a944cebd4eb8c5c.PNG",
+    "static/media/TSE.png": "/static/media/TSE.1d063f473661c3d2abfc.png",
+    "static/media/HMM.PNG": "/static/media/HMM.5061f9e524e87d5a4c8f.PNG",
+    "index.html": "/index.html",
+    "main.273a6801.css.map": "/static/css/main.273a6801.css.map",
+    "main.8565d6df.js.map": "/static/js/main.8565d6df.js.map",
+    "787.2863db78.chunk.js.map": "/static/js/787.2863db78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.273a6801.css",
+    "static/js/main.8565d6df.js"
+  ]
+}
