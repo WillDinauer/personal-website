@@ -79,6 +79,7 @@ function SoftwareExperiences() {
             </>
           }
         />
+        
         {/******** Part of Speech Recognizer *******/}
         <SoftwareExperience 
           img={require('../images/HMM.PNG')}
@@ -98,6 +99,7 @@ function SoftwareExperiences() {
           }
           invert
         />
+
         {/******** Space Wizards *******/}
         <SoftwareExperience 
           img={require('../images/SpaceWizardPhoto.JPG')}
@@ -114,6 +116,48 @@ function SoftwareExperiences() {
                 <br/><br/>
                 We held a demo for our game at Dartmouth's Technigala in March of 2022. It was one of the most popular stands at the event, allowing two friends to duel in an exciting space environment.
                 The president of the college even gave a favorable review after testing out the game mechanics!
+              </p>
+            </>
+          }
+        />
+
+        {/******** Gold Nuggets Game *******/}
+        <SoftwareExperience 
+          img={require('../images/GoldNuggetsOverview.PNG')}
+          title='Gold Nuggets Game'
+          stack='C, Unix, Makefiles'
+          gitLink='https://github.com/WillDinauer/Nuggets-Game/'
+          projectDescription={
+            <>
+              <p className="project-text">
+                Led development of server (~1.5k lines of code) for multiplayer game in a scrum-environment within a group of three. The server allows up to 26 players to compete to collect gold in visibility-limited maps. 
+                Wrote code to handle communication between the server and clients, ensuring real-time updates for all players and spectators. Developed a system
+                for randomly dividing and placing clumps of gold within the map, and wrote code to validate client inputs.
+                <br/><br/>
+                This project was developed over the course of three weeks. We wrote a Design and Implementation file to describe the project and decisions we made in detail.
+                These files and the source code are available to view on GitHub.
+              </p>
+            </>
+          }
+          invert
+        />
+
+        {/******** Space Wizards *******/}
+        <SoftwareExperience 
+          img={require('../images/MiniC_Compiler.PNG')}
+          title='Mini C Compiler'
+          stack='Lex, Yacc'
+          gitLink='https://github.com/WillDinauer/MiniC-Frontend-Compiler'
+          projectDescription={
+            <>
+              <p className="project-text">
+              Developed a frontend compiler for a simplified version of C called MiniC using Lex and Yacc (~300 lines of code).
+                The program constructs an abstract syntax tree (AST) which can be compiled down to machine code.
+                <br/><br/>
+                All variables, parameters and constants in a miniC program are integers. 
+                Functions can return void or int and take a maximum of one void or int parameter.
+                The program will find and print every syntactical error (variables used that were never defined; multiple declarations of a single variable), 
+                so long as there are no syntax errors according to the grammar.
               </p>
             </>
           }
