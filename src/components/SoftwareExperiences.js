@@ -142,7 +142,46 @@ function SoftwareExperiences() {
           invert
         />
 
-        {/******** Space Wizards *******/}
+        {/******** Pikr *******/}
+        <SoftwareExperience 
+          img={require('../images/Pikr2.PNG')}
+          title='Pikr Mobile App'
+          stack='Java, Google Firebase'
+          gitLink='https://github.com/WillDinauer/Pikr'
+          link='https://journeys.dartmouth.edu/pikr/'
+          projectDescription={
+            <>
+              <p className="project-text">
+                Developed an Android application in a team of two that allows users to create picture-based polls and cast votes. 
+                There's a public and private feed, with the private feed restricted to people you add as friends - votes by random users and friends are separated when viewing the results of your post.
+                <br/><br/>
+                This was a large project, mainly written in Java, that uses Google Firebase with the realtime database, storage, authentication, and machine learning. 
+                There are 7 activities, 3 adapters, 4 fragments, and 3 models along with 18 layouts and 5 menus.
+              </p>
+            </>
+          }
+        />
+
+        {/******** ChessAI *******/}
+        <SoftwareExperience 
+          img={require('../images/ChessAI.PNG')}
+          title='Chess AI'
+          stack='Python'
+          gitLink='https://github.com/WillDinauer/ChessAI'
+          projectDescription={
+            <>
+              <p className="project-text">
+                Developed an artificial intelligence program built using Python to play chess.
+                There are different types of Chess AI that I implemented, using different algorithms to optimize 
+                Notably, the Minimax algorithm is used to find a decent move by searching up to a specified depth. 
+                Alpha-Beta Pruning is used to increase the efficiency of the AI, decreasing the search space given the size of the depth.
+              </p>
+            </>
+          }
+          invert
+        />
+
+        {/******** MiniC Compiler *******/}
         <SoftwareExperience 
           img={require('../images/MiniC_Compiler.PNG')}
           title='Mini C Compiler'
