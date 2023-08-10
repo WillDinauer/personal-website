@@ -1,7 +1,8 @@
 .se-container {
   display: flex;
   justify-content: center;
-  flex-direction: column
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .project-container {
@@ -76,6 +77,23 @@
   color: #fff;
   font-size: 20px;
   font-weight: 100;
+}
+
+.hidden-left {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateX(-100%);
+}
+
+.hidden-right {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateX(100%);
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 @media (max-width: 1252px) {

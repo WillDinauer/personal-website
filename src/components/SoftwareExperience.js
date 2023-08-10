@@ -7,14 +7,15 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function SoftwareExperience(props) {
   const direction = props.invert ? 'project-invert' : 'project-regular'; 
-
+  const pic_fade_direction = props.invert ? 'hidden-right' : 'hidden-left';
+  const content_fade_direction = props.invert ? 'hidden-left' : 'hidden-right';
   return (
     <>
       <div className={`project ${direction}`}>
-        <div className="project-image-container">
+        <div className={`project-image-container ${pic_fade_direction}`}>
           <img src={props.img} alt="Project" className="project-image" />
         </div>
-        <div className="project-content">
+        <div className={`project-content ${content_fade_direction}`}>
           <div className="project-header">
             <div className="project-header-text">
               <h3 className='project-title'>{props.title}</h3>

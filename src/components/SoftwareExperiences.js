@@ -1,8 +1,32 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './SoftwareExperiences.css';
 import SoftwareExperience from './SoftwareExperience';
 
 function SoftwareExperiences() {
+  const observerRef = useRef(null);
+
+  useEffect(() => {
+    observerRef.current = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    });
+
+    const hiddenElements = document.querySelectorAll('.hidden-left');
+    hiddenElements.forEach((el) => observerRef.current.observe(el));
+
+    const hrElements = document.querySelectorAll('.hidden-right');
+    hrElements.forEach((el) => observerRef.current.observe(el));
+
+    return () => {
+      if (observerRef.current) {
+        observerRef.current.disconnect();
+      }
+    };
+  }, []);
+
   return (
     <div className='se-container'>
       <h1>Software Projects</h1>
