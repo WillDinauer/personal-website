@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.6962067e.css",
-    "main.js": "/static/js/main.9547bcd5.js",
+    "main.js": "/static/js/main.94f569cb.js",
     "static/js/787.2863db78.chunk.js": "/static/js/787.2863db78.chunk.js",
     "static/media/HeadShot.JPG": "/static/media/HeadShot.4a301f50967b8f83c722.JPG",
     "static/media/NY_pose.jpg": "/static/media/NY_pose.4d9286a069e63c7d224f.jpg",
     "static/media/CedarTeam.jpg": "/static/media/CedarTeam.b00ece41d605359aee20.jpg",
+    "static/media/Pikr2.PNG": "/static/media/Pikr2.4e1ff97263f1ca65b406.PNG",
     "static/media/Cedar.png": "/static/media/Cedar.0b57235b55ce4747944c.png",
     "static/media/GoldNuggetsOverview.PNG": "/static/media/GoldNuggetsOverview.85e2e3359714486c673c.PNG",
     "static/media/WilliamDinauer_Resume.pdf": "/static/media/WilliamDinauer_Resume.c5cdeb32d07dccb8feca.pdf",
@@ -13,16 +14,17 @@
     "static/media/MiniC_Compiler.PNG": "/static/media/MiniC_Compiler.8828888032faaaff1a89.PNG",
     "static/media/Nationals_22.jpg": "/static/media/Nationals_22.63c3f0f5a62430400bda.jpg",
     "static/media/WD_alt.png": "/static/media/WD_alt.1a8695af1485f107f142.png",
+    "static/media/ChessAI.PNG": "/static/media/ChessAI.e91d890e5812f1b57f83.PNG",
     "static/media/x86_code_generator.PNG": "/static/media/x86_code_generator.15f58a944cebd4eb8c5c.PNG",
     "static/media/TSE.png": "/static/media/TSE.1d063f473661c3d2abfc.png",
     "static/media/HMM.PNG": "/static/media/HMM.5061f9e524e87d5a4c8f.PNG",
     "index.html": "/index.html",
     "main.6962067e.css.map": "/static/css/main.6962067e.css.map",
-    "main.9547bcd5.js.map": "/static/js/main.9547bcd5.js.map",
+    "main.94f569cb.js.map": "/static/js/main.94f569cb.js.map",
     "787.2863db78.chunk.js.map": "/static/js/787.2863db78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6962067e.css",
-    "static/js/main.9547bcd5.js"
+    "static/js/main.94f569cb.js"
   ]
 }
